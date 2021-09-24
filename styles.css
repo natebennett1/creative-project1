@@ -11,6 +11,15 @@ body {
     background-color: blanchedalmond;
 }
 
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+}
+
 img {
         display: block;
         margin-left: auto;
@@ -20,6 +29,8 @@ img {
         min-width: 250px;
         height: 200px;
 }
+
+
 
 .position {
     display: flex;
@@ -83,7 +94,7 @@ img {
 
 .social-footer {
     padding: 1rem;
-    background: #8a8a8a;
+    background: #93b3e6;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -93,6 +104,8 @@ img {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    text-align: center;
+    font-size: medium;
 }
 
 .division {
