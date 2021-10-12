@@ -9,32 +9,36 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand navbar-light py-md-4" style="background-color: #93b3e6; font-family: Courier; color: white ">
-        <a class="navbar-brand" href="index.html">D&N Football Reference</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">D&N Sports Reference</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="positions.html">Positions </a>
+                    <a class="nav-link" href="positions.html">Positions <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="teams.html">Teams</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="leaders.html">Stat Leaders</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="teams.html">Teams <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
+
         </div>
     </nav>
     <div display='flex' ; flex-direction='row'>
         <img class="landscape" src="images/stadium2.jpg">
-        <h1>NBA Team Information</h1>
+        <h1>NBA Team Information - via NBA Stats API (automatically loads)</h1>
         <!-- grid -->
+    </div><div style="overflow-x:auto;">
+     <div id="NBA">
+     </div>
     </div>
-    <div id="NBA">
-    </div>
+
+    
     <footer class="social-footer">
         <div class="container">
             <div class="github-link">
